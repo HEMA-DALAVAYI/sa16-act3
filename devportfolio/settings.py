@@ -76,14 +76,15 @@ WSGI_APPLICATION = 'devportfolio.wsgi.application'
 
 DATABASES = {
 'default': {
-'ENGINE': 'django.db.backends.postgresql',
-'NAME': 'mydatabase',
-'USER': 'mydatabaseuser',
-'PASSWORD': 'mypassword',
-'HOST': 'localhost',
-'PORT': '',
+    'ENGINE': 'django.db.backends.postgresql',
+    'NAME': 'mysite_db',
+    'USER': 'hema_dalavayi',
+    'PASSWORD': 'hemad',
+    'HOST': 'localhost',
+    'PORT': '5432',
+    }
 }
-}
+
 
 
 # Password validation
